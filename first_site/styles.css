@@ -1,0 +1,29 @@
+body {
+background-color: lightblue;
+margin: 0
+}
+
+p {
+  color: rebeccapurple;
+  background: rgb(250, 167, 139);
+
+
+  border: 12px solid orangered;
+  padding: 40px;
+  margin: 50px;
+}
+
+h1{
+  color: olivedrab;
+  font-size: 90px;
+  margin-top: 0;
+}
+
+img{
+  max-width: 100%;
+}
+
+.special {
+  background: lightgray;
+  font-size: 30px;
+}
