@@ -1,16 +1,67 @@
+html {
+  min-height: 100%;
+  max-width: 100%;
+}
+
 body {
-background-color: black;
-text-align: center;
-font-family: Helvetica, sans-serif;
+  background-image: linear-gradient(200deg, tomato, #fff34d);
+  background-repeat: no-repeat;
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  margin-top: 250px;
 }
 
 p {
-  color: white;
+  color: snow;
 }
 
-h1{color: white;
-font-size: 110px;
-margin-top: 60px;
-margin-bottom: 60px;
-text-decoration: line-through;
+h2 {
+  color: snow;
+}
+
+h1 {
+  color: snow;
+  font-size: 110px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  text-decoration: line-through;
+}
+
+.relative2 {
+  position: relative;
+  right: 250px;
+}
+
+.relative3 {
+  position: relative;
+  bottom: 50px;
+  left: 300px;
+}
+
+.relative4 {
+  position: relative;
+  bottom: 200px;
+  right: 200px;
+}
+
+.relative5 {
+  position: relative;
+  bottom: 175px;
+  left: 270px;
+}
+
+.relative6 {
+  position: relative;
+  bottom: 200px;
+  right: 350px;
+}
+
+.fixed1 {
+  position: fixed;
+    top: 95.5%;
+}
+
+.homeh1 {
+position: relative;
+bottom: 150px;
 }

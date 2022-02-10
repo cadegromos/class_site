@@ -1,0 +1,26 @@
+*{
+  box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'ouroborosregular';
+    src: url('ouroboros-webfont.woff2') format('woff2'),
+         url('ouroboros-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+  font-family: 'ouroborosregular', monospace;
+  
+}
+
+p {background-color: lightblue;
+padding: 30px;
+border: 10px solid thistle;
+margin: 30px;
+max-width: 300px;
+height: 400px;
+
+}
