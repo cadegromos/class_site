@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+body {
+background-image: linear-gradient(180deg, rgb(255, 255, 255), rgb(151, 228, 236));
+margin: -8px;
+}
+
+.road {
+  position: relative;
+  background-color: rgb(97, 91, 91);
+  width: 110%;
+  height: 250px;
+  top: 650px;
+}
+
+.line1 {
+  position: relative;
+  width: 200px;
+  height: 20px;
+  top: 450px;
+  left: 125px;
+  background: rgb(219, 197, 46);
+}
+
+.line2 {
+  position: relative;
+  width: 200px;
+  height: 20px;
+  top: 430px;
+  left: 425px;
+  background: rgb(219, 197, 46);
+}
+
+.line3 {
+  position: relative;
+  width: 200px;
+  height: 20px;
+  top: 410px;
+  left: 725px;
+  background: rgb(219, 197, 46);
+}
+
+.line4 {
+  position: relative;
+  width: 200px;
+  height: 20px;
+  top: 390px;
+  left: 1025px;
+  background: rgb(219, 197, 46);
+}
+
+.line5 {
+  position: relative;
+  width: 200px;
+  height: 20px;
+  top: 370px;
+  left: 1325px;
+  background: rgb(219, 197, 46);
+}
+
+.car_body {
+  position: absolute;
+  border-top: 100px solid rgb(175, 221, 159);
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  height: 0;
+  width: 600px;
+  top: 500px;
+  left: 950px;
+  /* border-radius: 30%; */
+}
+
+.left_wheel {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background: rgb(34, 34, 34);
+  border-radius: 50%;
+  left: 25px;
+  bottom: 35px;
+}
+
+.right_wheel {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background: rgb(34, 34, 34);
+  border-radius: 50%;
+  left: 395px;
+  bottom: 135px;
+}
