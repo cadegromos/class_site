@@ -1,0 +1,21 @@
+html {
+  background-color: black;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+
+
+button{
+  background-color: transparent;
+  color: transparent;
+  border: none;
+  cursor: cell;
+  padding: 20px;
+}
+
+ button:hover {
+  background-color: rgb(255, 255, 255);
+}

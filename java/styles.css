@@ -1,0 +1,30 @@
+*{
+  box-sizing: border-box;
+}
+
+button{
+  background-color: rgb(246, 245, 110);
+  border-radius: 50%;
+  border: none;
+  cursor: cell;
+  padding: 20px;
+}
+
+button:hover {
+  background-color: rgb(159, 163, 71);
+}
+
+.sidebar {
+  background-color: rgb(171, 107, 97);
+  position: fixed;
+  top: 0;
+  right: -100px;
+  height: 300px;
+  width: 100px;
+  padding: 20px;
+  transition: right .5s ease-in-out;
+}
+
+.active {
+  right:0;
+}

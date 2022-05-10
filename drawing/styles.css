@@ -13,10 +13,20 @@ background-image: linear-gradient(180deg, rgb(255, 255, 255), rgb(151, 228, 236)
 margin: -8px;
 }
 
+.circle {
+  width: 300px;
+  height: 300px;
+  background-image: radial-gradient(transparent 15%, rgb(255, 218, 24) 30%, transparent 70%);
+  border-radius: 50%;
+  position: fixed;
+  top: -50px;
+  left: 200px;
+}
+
 .road {
   position: relative;
   background-color: rgb(97, 91, 91);
-  width: 110%;
+  width: 115%;
   height: 250px;
   top: 650px;
 }
@@ -75,7 +85,7 @@ margin: -8px;
   width: 600px;
   top: 500px;
   left: 950px;
-  /* border-radius: 30%; */
+  border-radius: 30%;
 }
 
 .left_wheel {
